@@ -32,7 +32,7 @@ chrome.storage.sync.get("blocking", (data) => {
     ];
 
     if (blocklist.find((item) => site.includes(item))) {
-      window.location.href = "https://google.com";
+      window.location.href = "https://www.gofundme.com/s?q=palestine";
     } else {
       const links = document.getElementsByTagName("a");
 
