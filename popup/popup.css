@@ -1,0 +1,28 @@
+body {
+  width: 20rem;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+input {
+  cursor: pointer;
+}
+
+img {
+  width: 24px;
+  height: 24px;
+}
