@@ -58,6 +58,31 @@ chrome.storage.sync.get("blocking", (data) => {
     "https://www.tiktok.com/@destinydebates",
     "https://www.youtube.com/Destiny",
     "https://www.twitch.tv/destiny",
+    "https://www.instagram.com/destiny",
+
+    "https://www.instagram.com/simuliu",
+    "https://twitter.com/SimuLiu",
+    "https://www.tiktok.com/@simuliu",
+
+    "https://www.instagram.com/haileybieber",
+    "https://www.tiktok.com/@haileybieber",
+
+    "https://www.instagram.com/markhamill",
+    "https://twitter.com/MarkHamill",
+    "https://www.tiktok.com/@hamillhimself",
+
+    "https://twitter.com/benshapiro",
+    "https://www.instagram.com/officialbenshapiro",
+
+    "https://www.instagram.com/shuapeck",
+    "https://www.tiktok.com/@joshpeck",
+    "https://twitter.com/ItsJoshPeck",
+
+    "https://www.instagram.com/miriam.ezagui",
+    "https://www.tiktok.com/@miriamezagui",
+
+    "https://twitter.com/brettgelman",
+    "https://www.instagram.com/brettgelman",
   ];
 
   if (blocklist.find((item) => site.includes(item))) {
