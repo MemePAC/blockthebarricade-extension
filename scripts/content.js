@@ -52,6 +52,12 @@ chrome.storage.sync.get("blocking", (data) => {
 
     "https://www.instagram.com/trevornoah",
     "https://twitter.com/Trevornoah",
+
+    "https://www.destiny.gg",
+    "https://twitter.com/TheOmniLiberal",
+    "https://www.tiktok.com/@destinydebates",
+    "https://www.youtube.com/Destiny",
+    "https://www.twitch.tv/destiny",
   ];
 
   if (blocklist.find((item) => site.includes(item))) {
