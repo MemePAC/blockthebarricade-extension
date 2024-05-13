@@ -3,9 +3,7 @@
   "name": "Block The Barricade",
   "description": "Blocks those who are not doing the bare minimum.",
   "version": "1.0",
-  "action": {
-    "default_popup": "popup/popup.html"
-  },
+  "action": { "default_popup": "popup/popup.html" },
   "content_scripts": [
     {
       "js": ["scripts/content.js"],
@@ -18,5 +16,8 @@
     "48": "images/icon-48.png",
     "128": "images/icon-128.png"
   },
-  "permissions": ["storage"]
+  "permissions": ["storage"],
+  "browser_specific_settings": {
+    "gecko": { "id": "blockout@memepac.org" }
+  }
 }
